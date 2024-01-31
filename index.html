@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" type="text/css" href="./styles.css">
     <title>Mi primera pagina web</title>
 </head>
 <body>
     <header>
-        <img src="./Biblioteca.jpg"/>
+        <img src="./Biblioteca.jpg" id="ImagenPrincipal"/>
         
         <h1>Biblioteca Principal de Mexico</h1>
 
-        <span>Home</span>
-        <span>Prestamos de libros</span>
-        <span>Biblioteca virtual</span>
+        <span class="Pagina">Home</span>
+        <span class="Pagina">Prestamos de libros</span>
+        <span class="Pagina">Biblioteca virtual</span>
     </header>
     <main>
         <section>
@@ -28,7 +29,7 @@
 
             </article>
             <hr/>
-            <article>
+            <article id="devolver">
 
                 <h3>Libros sin devolver</h3>
 
@@ -64,12 +65,15 @@
     </main>
 
     <footer>
-        <p>Les dejamos nuestra informacion de contacto:</p>
-        <p>Numero de telefono</p>
-        <p>Domicilio</p>
-        <P>Email</P>
-        <p>Les dejamos un link para las personas que estan interesadas en hacer una donacion a la biblioteca.</p>
-        <a href="./donaciones.html">Formulario para donacion</a>
+            <div class="final">
+                <p id="contacto">Les dejamos nuestra informacion de contacto:</p>
+                <p>Numero de telefono</p>
+                <p>Domicilio</p>
+                <P>Email</P>
+            </div>
+                <hr/>
+                <p>Les dejamos un link para las personas que estan interesadas en hacer una donacion a la biblioteca.</p>
+                <a href="./donaciones.html">Formulario para donacion</a>
     </footer>   
 </body>
 </html>
